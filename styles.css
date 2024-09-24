@@ -1,0 +1,27 @@
+body {
+  margin: 30px;
+  background-color: #dcbaa1;
+}
+
+#board {
+  display: grid;
+  margin-top: 20px;
+}
+
+#tamaño {
+  width: 28px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.cuadro-blanco {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.cuadro-negro {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+}
