@@ -1,10 +1,16 @@
 body {
-  margin: 30px;
   background-color: #dcbaa1;
+  text-align: center;
+}
+
+.tablero {
+  display: flex;
+  justify-content: center;
 }
 
 #board {
   display: grid;
+  width: 80%;
   margin-top: 20px;
 }
 
@@ -15,13 +21,13 @@ body {
 }
 
 .cuadro-blanco {
-  width: 100px;
-  height: 100px;
+  width: 100%; /* Dejar que el tamaño del grid determine las dimensiones */
+  aspect-ratio: 1; /* Mantener las celdas cuadradas */
   background-color: #fff;
 }
 
 .cuadro-negro {
-  width: 100px;
-  height: 100px;
+  width: 100%; /* Dejar que el tamaño del grid determine las dimensiones */
+  aspect-ratio: 1; /* Mantener las celdas cuadradas */
   background-color: #000;
 }
