@@ -11,7 +11,7 @@ const btn = document.getElementById("btn")
         return
       }
 
-      // Obtenemos el ancho disponible del contenedor
+  // Obtenemos el ancho disponible del contenedor
   const maxWidth = board.offsetWidth;
   
   // Calculamos el tamaño de las celdas en función del tamaño del tablero y el ancho disponible
@@ -40,19 +40,4 @@ const btn = document.getElementById("btn")
   }
 }
 
-    //   // Define las dimensiones del grid en base al tamaño ingresado
-    //   board.style.gridTemplateColumns = `repeat(${tamaño.value}, 100px)`;
-    //   board.style.gridTemplateRows = `repeat(${tamaño.value}, 100px)`;
-
-    //   for (let y = 0; y < tamaño.value; y++) {
-    //     for (let x = 0; x < tamaño.value; x++) {
-    //       if ((x + y) % 2 == 0) {
-    //         board.innerHTML += `<div class="cuadro-blanco"></div>`
-    //       } else {
-    //         board.innerHTML += `<div class="cuadro-negro"></div>`
-    //       }
-    //     }
-    //   }
-    // }
-
-    btn.addEventListener("click", ajedrez)
+btn.addEventListener("click", ajedrez)
